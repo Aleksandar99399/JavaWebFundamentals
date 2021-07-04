@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0041541d-0125-4955-bbf1-2922e94146ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Basic game/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/exam 3 November 2019.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/config/AppBeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/binding/HeroAddBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/binding/UserLoginBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/binding/UserRegisterBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/entities/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/entities/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/service/BaseServiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/service/HeroServiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/service/UserServiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/view/HeroViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/models/view/HomeViewHero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/repositories/HeroRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/servicies/HeroService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/servicies/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/servicies/impl/HeroServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/servicies/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/web/HeroesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/web/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/java/prep/web/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/static/css/reset-css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/static/img/archer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/static/img/arena.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/static/img/mage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/static/img/warrior.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/create-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/delete-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/details-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/fragments/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/fragments/nav-guest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/fragments/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/main/resources/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/src/test/java/prep/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/config/AppBeanConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/binding/HeroAddBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/binding/UserLoginBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/binding/UserRegisterBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/entities/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/entities/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/entities/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/service/BaseServiceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/service/HeroServiceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/service/UserServiceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/view/HeroViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/models/view/HomeViewHero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/repositories/HeroRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/servicies/HeroService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/servicies/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/servicies/impl/HeroServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/servicies/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/web/HeroesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/web/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/prep/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/static/css/reset-css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/static/img/archer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/static/img/arena.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/static/img/mage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/static/img/warrior.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/create-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/delete-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/details-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/fragments/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/fragments/nav-guest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/fragments/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/classes/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic game/target/test-classes/prep/DemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/examPrep27June.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/ExamApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/config/ApplicationConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/init/Init.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/binding/ProductRegisterBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/binding/UserLoginBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/binding/UserRegisterBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/enities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/enities/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/enities/NameType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/enities/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/enities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/services/ProductServiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/services/UserServiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/models/views/ProductViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/repositories/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/repositories/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/services/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/services/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/services/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/services/interfaces/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/services/interfaces/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/services/interfaces/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/web/controllers/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/web/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/web/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/java/bg/softuni/exam/web/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/static/css/reset-css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/static/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/static/img/drink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/static/img/food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/static/img/household.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/static/img/other.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/templates/fragments/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/templates/fragments/nav-authorized.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/templates/fragments/nav-unauthorized.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/templates/product-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/main/resources/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/src/test/java/bg/softuni/exam/ExamApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/ExamApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/config/ApplicationConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/init/Init.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/binding/ProductRegisterBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/binding/UserLoginBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/binding/UserRegisterBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/enities/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/enities/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/enities/NameType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/enities/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/enities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/services/ProductServiceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/services/UserServiceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/models/views/ProductViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/repositories/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/repositories/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/services/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/services/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/services/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/services/interfaces/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/services/interfaces/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/services/interfaces/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/web/controllers/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/web/controllers/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/web/controllers/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/bg/softuni/exam/web/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/static/css/reset-css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/static/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/static/img/drink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/static/img/food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/static/img/household.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/static/img/other.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/templates/fragments/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/templates/fragments/nav-authorized.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/templates/fragments/nav-unauthorized.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/templates/product-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/classes/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Online Shop/target/test-classes/bg/softuni/exam/ExamApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/exam 3 November 2019.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/config/AppBeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/binding/HeroAddBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/binding/UserLoginBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/binding/UserRegisterBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/entities/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/entities/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/service/BaseServiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/service/HeroServiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/service/UserServiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/view/HeroViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/models/view/HomeViewHero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/repositories/HeroRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/servicies/HeroService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/servicies/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/servicies/impl/HeroServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/servicies/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/web/HeroesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/web/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/java/prep/web/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/static/css/reset-css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/static/img/archer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/static/img/arena.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/static/img/mage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/static/img/warrior.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/create-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/delete-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/details-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/fragments/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/fragments/nav-guest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/fragments/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/main/resources/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/src/test/java/prep/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/META-INF/exam 3 November 2019.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/config/AppBeanConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/binding/HeroAddBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/binding/UserLoginBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/binding/UserRegisterBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/entities/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/entities/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/entities/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/service/BaseServiceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/service/HeroServiceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/service/UserServiceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/view/HeroViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/models/view/HomeViewHero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/repositories/HeroRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/servicies/HeroService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/servicies/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/servicies/impl/HeroServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/servicies/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/web/HeroesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/web/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/prep/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/static/css/reset-css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/static/img/archer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/static/img/arena.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/static/img/mage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/static/img/warrior.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/create-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/delete-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/details-hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/fragments/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/fragments/nav-guest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/fragments/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/classes/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam 3 November 2019/target/test-classes/prep/DemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/examPrep27June.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/ExamApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/config/ApplicationConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/init/Init.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/binding/ProductRegisterBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/binding/UserLoginBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/binding/UserRegisterBindingModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/enities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/enities/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/enities/NameType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/enities/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/enities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/services/ProductServiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/services/UserServiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/models/views/ProductViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/repositories/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/repositories/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/services/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/services/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/services/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/services/interfaces/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/services/interfaces/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/services/interfaces/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/web/controllers/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/web/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/web/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/java/bg/softuni/exam/web/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/static/css/reset-css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/static/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/static/img/drink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/static/img/food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/static/img/household.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/static/img/other.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/templates/fragments/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/templates/fragments/nav-authorized.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/templates/fragments/nav-unauthorized.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/templates/product-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/main/resources/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/src/test/java/bg/softuni/exam/ExamApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/ExamApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/config/ApplicationConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/init/Init.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/binding/ProductRegisterBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/binding/UserLoginBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/binding/UserRegisterBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/enities/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/enities/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/enities/NameType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/enities/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/enities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/services/ProductServiceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/services/UserServiceModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/models/views/ProductViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/repositories/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/repositories/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/services/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/services/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/services/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/services/interfaces/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/services/interfaces/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/services/interfaces/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/web/controllers/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/web/controllers/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/web/controllers/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/bg/softuni/exam/web/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/static/css/reset-css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/static/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/static/img/drink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/static/img/food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/static/img/household.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/static/img/other.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/templates/fragments/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/templates/fragments/nav-authorized.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/templates/fragments/nav-unauthorized.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/templates/product-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/classes/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba/target/test-classes/bg/softuni/exam/ExamApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/servlet-cookie-session.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/DemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/dao/BookDBController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/exception/EntityExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/exception/InvalidRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/exception/NonexistingEntityException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/model/CartBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/servlet/BookstoreContextListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/servlet/CookiesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/servlet/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-basics-master/servlet-cookie-session/src/main/java/demo/spring/cookiesession/servlet/ShoppingServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/cars-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/RestDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/config/SpringSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/dao/BrandRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/dao/OfferRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/dao/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/events/OfferCreationEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/events/UserCreationEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/exception/EntityNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/exception/InvalidEntityException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/init/DataInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/model/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/model/EngineType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/model/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/model/Offer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/model/TransmissionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/model/VehicleCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/model/VehicleState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/model/Views.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/service/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/service/OfferService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/service/impl/BrandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/service/impl/OfferServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/demos/springdata/restdemo/util/JwtUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/test/java/demos/springdata/restdemo/RestDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/RestDemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/config/SpringSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/dao/BrandRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/dao/OfferRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/events/OfferCreationEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/events/UserCreationEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/exception/EntityNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/exception/InvalidEntityException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/init/DataInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/Credentials.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/EngineType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/ErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/JwtResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/Offer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/TransmissionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/VehicleCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/VehicleState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/Views$Offer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/model/Views.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/service/BrandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/service/OfferService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/service/impl/BrandServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/service/impl/OfferServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/util/JwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/web/ExceptionHandlerControllerAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/web/JwtAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/web/JwtRequestFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/web/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/web/OfferController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/classes/demos/springdata/restdemo/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/target/test-classes/demos/springdata/restdemo/RestDemoApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="masterqwerw" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="ProjectId" id="1uoS784qthcR7EJfDcgnwSZbkb2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0041541d-0125-4955-bbf1-2922e94146ea" name="Default Changelist" comment="" />
+      <created>1625330279228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625330279228</updated>
+      <workItem from="1625330280639" duration="2362000" />
+      <workItem from="1625395648267" duration="153000" />
+      <workItem from="1625395810665" duration="69000" />
+      <workItem from="1625395885728" duration="211000" />
+      <workItem from="1625396103498" duration="201000" />
+      <workItem from="1625396318735" duration="61000" />
+      <workItem from="1625396388036" duration="75000" />
+      <workItem from="1625396471961" duration="16000" />
+      <workItem from="1625396640488" duration="1024000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
