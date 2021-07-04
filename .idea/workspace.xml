@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0041541d-0125-4955-bbf1-2922e94146ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic game/HELP.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic game/exam 3 November 2019.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic game/mvnw" beforeDir="false" />
@@ -488,7 +490,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectId" id="1uoS784qthcR7EJfDcgnwSZbkb2" />
   <component name="ProjectViewState">
@@ -520,7 +521,7 @@
       <workItem from="1625396318735" duration="61000" />
       <workItem from="1625396388036" duration="75000" />
       <workItem from="1625396471961" duration="16000" />
-      <workItem from="1625396640488" duration="1024000" />
+      <workItem from="1625396640488" duration="337000" />
     </task>
     <servers />
   </component>
